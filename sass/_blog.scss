@@ -1,0 +1,148 @@
+body.blog, body.single, body.archive{
+	background: $lightgrey;
+}
+
+article.blog-post{
+	    padding: 33px 100px 0;
+	    a.button{
+	    	font-size: 16px;  
+		    width: 175px;
+		    border: 1px solid $teal;
+	    }
+	    .post-date{
+			text-align: left;
+		    padding-left: 30px;
+		    font-size: 11px;
+		    font-style: italic;
+	    }
+	    .post-social ul.social{
+		    float: right;
+		    clear: both;
+		    margin: 0;
+		    li{
+		    	background: white;
+			    a i{
+			    	color: $teal;
+			    }
+		    }
+		    
+	    }
+
+
+}
+
+div#sidebar.blog {
+	h2{
+		text-transform: uppercase;
+		font-size: 12px;
+		position: relative;
+		text-align: center;
+		margin-bottom: 20px;
+
+	}
+	h2:before, h2:after{
+		content: "";
+	    position: absolute;
+	    top: 50%;
+	    border-bottom: 1px solid;
+	    border-color: #d8d8d8;
+	    width: 30%;
+	}
+	h2:before{
+		left: 0px;
+	}
+	h2:after{
+		right: 0px;
+	}
+	section.blog-follow h2:before, section.blog-follow h2:after{
+		width: 20%;
+	}
+}
+
+section.blog-follow  {
+	ul.social {
+		width: 192px;
+		margin: 0 auto;
+		li {
+	        width: 28px;
+		    height: 28px;
+		    margin: 0 10px;
+		    background: #49BCAB;
+		    border-radius: 50%;
+		 	a {
+				color: white;
+				i {
+			        font-size: 14px;
+				    position: relative;
+				    top: -2px;
+				    margin: 0;
+				    padding: 0;
+				}
+			}
+		}
+		li:hover, li:active{
+			color: $teal;
+			background: white;
+			a{
+				color: $teal;
+			}
+		}
+	}
+	p.email{
+	    text-align: center;
+	    color: #666;
+	    padding: 5px 0 8px;
+	    font-size: 14px;
+	    width: 80%;
+	    margin: 0 auto 25px;
+	}
+}
+
+#blog-feed .blog-text, article.blog-post .blog-text{
+	background: white;
+	h3 {
+		font-family: "Luna";
+		font-size: 20px;
+		color: #333;
+		margin-top: 15px;
+		padding-bottom: 0px;
+	}
+	h5{
+		margin: 0;
+		text-transform: uppercase;
+		ul.post-categories li{
+			padding:0;
+		}
+	}
+}
+
+.blog-pagination {
+	width: 70%;
+	padding: 25px 100px;
+	a{
+		background: white;
+		border: $teal 1px solid;
+		padding: 10px 20px;
+		text-transform: uppercase;
+		transition: all 0.2s ease;
+	}
+	a:hover, a:active{
+		background: $teal;
+		color: white;
+	}
+	.next{
+		float: right;
+	}
+}
+
+.widget_archive label{
+	visibility: hidden;
+}
+
+.widget_archive select{
+	width: 100%;
+}
+
+.widget_categories li{
+	text-align: left;
+}

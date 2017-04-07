@@ -1,0 +1,151 @@
+/*
+* Theme Name: Rachel 2017
+* Theme URI: http://suzettemccanny.com;
+* Description: Custom theme created by Sizette McCanny for Rachel Weinstock.
+* Version: 1.0
+* Author: Suzette McCanny
+* Author URI: http://suzettemccanny.com;
+*/
+
+@import 'normalize';
+@import 'fonts';
+@import 'variables';
+@import 'css';
+@import 'typography';
+@import 'navigation';
+@import 'sidebar';
+@import 'comments';
+@import 'placeholder';
+@import 'footer';
+@import 'header';
+@import 'blog';
+@import 'home';
+
+/*
+====================================
+Default Styling
+====================================
+*/
+
+img {
+	max-width: 100%;
+}
+
+body {
+	color: #333;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.content {
+	float: left;
+	width: 65%;
+	margin-right: 5%;
+}
+
+.full {
+	width: 100%;
+}
+
+.half{
+	width: 50%;
+	float: left;
+}
+.third{
+	width: 33%;
+	float: left;
+}
+div.wrapper{
+	max-width: 1265px;
+	margin: 0 auto;
+}
+
+section.sign-up{
+	background: $teal;
+	margin: 15px 0;
+	.sign-up-text{
+		h4{
+			text-transform: uppercase;
+			color: white;
+			margin: 20px;
+			padding: 0;
+			font-size: 30px;
+		}
+		p{
+			margin: 20px;
+			padding: 0 100px 10px 0;	
+			color: white;
+		}
+		width: 40%;
+		float: left;
+	}
+	div#mce-responses{
+	    font-size: 15px;
+	    color: #fff;
+	    position: absolute;
+	    top: 0;
+		a{
+			color: $orange;
+		}
+		a:hover{
+			color: $grey;
+		}
+	}
+	div#mc_embed_signup{
+		width: 60%;
+		float: left;
+		padding-top: 55px;
+		position: relative;
+		top: 5px;
+	}
+	div#mc_embed_signup_scroll{
+		float: left;
+		width: 60%;
+	}
+	.mc-field-group{
+		float: left;
+		width: 33%;
+	}
+	input{
+		border: none;
+		outline: none;
+		padding: 10px;
+		width: 85%;
+	}
+	input.button{
+		background: $orange;
+		border: 2px white solid;
+		border-radius: 4px;
+		box-shadow: 3px 5px 10px 0px rgba(0,0,0,0.5);
+		color: white;
+		font-family: "Luna";
+		padding: 18px 18px 13px;
+    	margin-top: -14px;
+    	width: 80%;
+    	transition: all 0.2s ease; 
+	}
+	input.button:hover, input.button:active{
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+	}
+}
+
+a.button{
+	text-transform: uppercase;
+	color: $teal;
+	border: 2px solid $teal;
+	font-size: 24px;
+	display: block;
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+	padding: 20px;
+	transition: all 0.2s ease;
+}
+a.button:hover, a.button:active {
+	color: white;
+	background: $teal;
+}
+@import 'mediaQueries';

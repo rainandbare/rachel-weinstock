@@ -1,0 +1,73 @@
+ul.menu {
+	margin: 0;
+	padding: 0;
+	float: right;
+	li{
+		display: inline-block;
+		margin-right: 30px;
+    	text-transform: uppercase;
+    	font-size: 20px;
+    	position: relative;
+		a {
+			color: #333;
+		}
+	}
+	li:after {
+		content: '';
+		display: block;
+		height: 2px;
+		width: 0;
+		background: white;
+		transition: width .5s ease, background-color .5s ease;
+	}
+	li:hover:after {
+		width: 100%;
+		background: #333;
+	}
+}
+
+li.menu-item-466:hover ul li:after{
+		height: 0px;
+	}
+
+li.menu-item-466 ul li{
+	a{
+		display: inline-block;
+	}
+	a:after{
+		content: '';
+		display: block;
+		height: 2px;
+		width: 0;
+		background: transparent;
+		transition: width .5s ease, background-color .5s ease;
+	}
+	a:hover:after {
+		width: 100%;
+		background: #333;
+	}
+} 
+
+li.menu-item-466 { position: relative; }
+
+li.menu-item-466 ul { 
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+li.menu-item-466:hover ul {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+

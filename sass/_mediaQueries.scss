@@ -1,0 +1,395 @@
+@media screen and (max-width: 1192px) {
+	section.workshops ul.prices>li {
+    	height: 570px;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	section.stamp {
+	    transform: rotate(0deg);
+	    position: relative;
+	    right: inherit;
+	    top: -100px;
+	}
+	section.mentorship.workshops{
+		margin-top: -140px;
+	}
+	div.stars {
+    	width: 130px;
+	}
+	section.testimonial div.testimonial-attribute {
+	    padding-top: 15px;
+	    font-size: 15px;
+	}
+	section.testimonial div.text-wrapper {
+    	padding: 30px;
+	}
+	div.testimonial-attribute, div.testimonial-content{
+    	width: 80%;
+  	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	div.footer-wrapper{
+		width: inherit;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	header.main-header nav.main-nav {
+		padding: 20px;
+	}
+	div.mobile-icon{
+		display: block;
+	}
+	ul#menu-menu.mobile-view{
+		display: block;
+	    position: absolute;
+	    right: 0;
+	    background: #F6F5F5;
+	    left: 0;
+	    top: 0;
+	    border-bottom: 4px solid #333;
+    	border-top: 4px solid #333;
+	}
+	ul#menu-menu.mobile-view li.icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+	ul#menu-menu.mobile-view li {
+		float: none; 
+		text-align: left;
+		display: block;
+		background: #F6F5F5;
+
+	}
+	ul#menu-menu.mobile-view li a {
+		display: block;
+		background: #F6F5F5;
+	}
+	ul.menu li ul, li.menu-item-466 ul{
+	    position: relative; 
+	    padding-top: 0px;
+	    left: 30px;
+	    z-index: 1;    
+	    visibility: visible;
+	    opacity: 1;
+	    top: 44px;
+	}
+	li.menu-item-460 ul li{
+		a:after{
+			display: none;
+		}
+	}
+	li.menu-item-466 ul li:after{
+		display: none;
+	}
+	ul.menu li:hover:after {
+	    display: none;
+	}
+	li.menu-item-466:hover ul {
+	    visibility: visible;
+	    opacity: 1;
+	    z-index: 1;
+	    transform: translateY(-2em);
+	}
+	ul.menu, div.menu ul{ 
+	  display:none; 
+	}
+	section.sign-up{
+		padding: 10px 0;
+		.sign-up-text {
+			width: 100%; 
+			text-align: center;
+			float: none;
+			p {
+			 padding: 0; 
+			 margin: 0 0 45px;
+			}
+		}
+	}
+	section.sign-up div#mc_embed_signup {
+	    width: 100%; 
+	    float: none;
+	    padding-top: 0px;
+	}
+
+	section.sign-up .mc-field-group {
+	    float: none;
+	    width: 67%;
+    	min-width: 200px;
+	    margin: 10px auto;
+	}
+
+	section.sign-up div#mce-responses {
+    top: -45px;
+    text-align: center;
+    width: 100%;
+	} 
+	section.sign-up input {
+	    width: 100%;
+	}
+	section.sign-up input.button {
+	    margin-top: 0;
+	    width: 80%;
+	    margin: 0 auto;
+	    display: block;
+	}
+
+	.half, .third {
+	    width: 100%;
+	    float: none;
+	}
+	section.services li{
+		margin: 0 auto 20px;
+	}
+	section.services li:nth-of-type(3){
+		margin-right:auto;
+	}
+	section.testimonials {
+	    margin: 40px 0;
+	    height: 325px;
+	}
+	section.testimonials div.testimonial {
+	    padding: 1px 25px 0;
+	    img{
+	    	display: block;
+	    	margin: 0 auto;
+	    }
+	}
+	section.testimonials div.testimonial_video {
+	    display: none;
+	}
+	.about {
+	    margin: 50px;
+	}
+	.companies h3 {
+	    text-align: center;
+	}
+	.about {
+		img{
+	    	display: block;
+	    	margin: 0 auto;
+		}
+	}
+	.footer_box.contact-links {
+	    padding: 10px 0;
+	}
+
+	.mentorship h3 {
+	    width: 70%;
+	}
+	ul.prices>li {
+	    width: calc(100% - 114px);
+	}
+
+	.mentorship h3.stars {
+	    width: 200px;
+	    font-size: 15px;
+	}
+	section.workshops ul.prices>li {
+	    width: calc(100% - 100px);
+	    height: inherit;
+
+	}
+	.inner_banner h2 {
+	    font-size: 36px;
+	}
+
+	.talk-proof li:first-of-type, .talk-proof li:nth-of-type(2) {
+	    float: none;
+	    width: 80%;
+	    margin: 0px auto 50px;
+	}
+
+	.talk-proof ul {
+	    margin: 0;
+	    position: relative;
+	    top: 0px;
+	}
+	.talk-proof i{
+	opacity: 0.5;
+	}
+
+	#blog-feed h3, .consultation h3, .mentorship h3, .toolbox h3 {
+	    width: 75%;
+	}
+
+	.toolbox ul li {
+	    width: calc(50% - 20px);
+	}
+
+	li.empty{
+		display: none;
+	}
+
+	.play p {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	    margin: 10px 0 22px;
+	    padding-top: 10px;
+	}
+	 .play ul {
+		margin-top: 0px;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	 .play ul li {
+	 	width: 100%;
+	 }
+	.research ul {
+	    margin: 0px;
+	}
+	.research ul li {
+	    margin: 0 auto 45px;
+	    width: 80%;
+	    float: none;
+	}
+	.research li:nth-of-type(2n) {
+	    float: none;
+	    margin: 0 auto 45px;
+	}
+	article.blog-post {
+	    padding: 33px 33px 0px;
+	}
+	section.blog-follow p.email {
+    width: 100%;
+	}
+	div.footer_box{
+		margin-left:20px;
+	}
+}
+
+@media screen and (max-width: 820px){
+	div#sidebar.blog h2:after, div#sidebar.blog h2:before {
+	    width: 20%;
+	}
+	div#sidebar.blog section.blog-follow h2:after, div#sidebar.blog section.blog-follow h2:before {
+	    width: 10%;
+	}
+	section.blog-follow p.email {
+	    width: 100%;
+	}
+	#sidebar {display:none;}
+	article {width:100% !important}
+	section.testimonials {
+	    height: inherit;
+	}
+}
+
+
+@media screen and (max-width: 450px){
+	.inner_banner h2 {
+	    font-size: 20px;
+	    margin: 0px;
+    	padding: 15px 0;
+	}
+	section.talks div.text h3 {
+    width: 100%;
+	}
+
+	section.talks div.text {
+	    padding: 10px;
+	}
+
+	.talk-proof li:first-of-type, .talk-proof li:nth-of-type(2) {
+	    float: none;
+	    width: 95%;
+	    margin: 0 auto 20px;
+	}
+	section.testimonial.no-pic div.wrapper {
+	    padding: 30px 0px;
+	}
+	section.testimonial.no-pic {
+	    margin: 10px 0 40px;
+	}
+	section.testimonial div.testimonial-attribute, section.testimonial div.testimonial-content {
+	    width: 95%;
+	    font-size: 14px;
+	}
+	#blog-feed h3, .consultation h3, .mentorship h3, .toolbox h3 {
+	    width: 95%;
+	} 
+	section.workshops ul.prices>li {
+	    width: 95%;
+	    margin: 10px auto;
+	    float: none;
+	}
+	section.workshops ul.prices li ul li {
+	    margin: 8px 10px 0 0px;
+	}
+	section.testimonial div.text-wrapper {
+	    padding:30px;
+	}
+	ul.prices>li {
+	    width: 95%;
+	    margin: 10px auto;
+	    float: none;
+	}
+	.toolbox ul li {
+	        width: 100%;
+	    height: inherit;
+	        padding: 20px 10px;
+	}
+	.play {
+	    margin: 0px 0 20px;
+	    ul.carosel li{
+	    	font-size: 30px;
+	    	padding-left: 0;
+	    	top:0px;
+	    }
+	}
+	.play p {
+		    padding-top: 10px;
+		}
+		.research ul li {
+	    width: 95%;
+	}
+	.research li {
+	    padding: 30px 20px 44px;
+	}
+	a.button {
+	    width: 87%;
+	}
+	.research a.button.c-2-a {
+	    right: 20px;
+	}
+
+	section.rachels_approach div.text {
+	    padding: 10px;
+	}
+	section.services h4 {
+	    padding: 40px 10px 0;
+	}
+	section.services li:first-of-type h4 {
+	    padding-top: 40px;
+	}
+	.about {
+	    margin: 0px;
+	}
+	article.blog-post {
+	    padding: 33px 10px 0;
+	}
+	ul.social li a i {
+	    margin: 0px;
+	}
+	.footer_box.contact-links {
+    	width: 100%;
+	}
+	.footer_box p.email {
+    	font-size: 12px;
+	}
+	.footer_box.fbook, .footer_box.insta {
+    	width: 100%; 
+	}
+	div.footer_box {
+	    margin-left: 0px;
+	}
+	.companies h3 {
+    	padding-left: 0px;
+	}
+}

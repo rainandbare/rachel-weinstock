@@ -1,0 +1,20 @@
+header.main-header{
+	background: #FFFFFF;	
+	div.logo{
+		width: 30%;
+		float: left;
+		padding: 15px 25px;
+	}
+	nav.main-nav{
+		// width: 55%;
+		// float: right;
+		padding: 50px 0;
+	}
+}
+div.mobile-icon{
+	display: none;
+	width: 40px;
+    position: absolute;
+    right: 10px;
+    z-index: 4;
+}
